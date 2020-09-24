@@ -22,3 +22,84 @@ endif::backend-html5[]
 
 == 2020-09-24
 
+=== Referate
+
+.Termin
+|===
+|Wer |Was |Bis wann?
+
+|Stütz
+|Liste der Referatsthemen
+|1. Okt. 2020
+
+|Stütz
+|Referatstermine festlegen
+|1. Okt. 2020
+
+|Stütz
+|RevealJs Repo zur Verfügung stellen
+|1. Okt. 2020
+
+|===
+
+==== Sources
+
+* https://github.com/bentolor/java9to13[Asciidoctor & RevealJS - Source, window="_blank"]
+* https://bentolor.github.io/java9to13[Asciidoctor & RevealJS - Presentation, window="_blank"]
+* https://www.pexels.com/[Pexels, window="_blank"]
+* https://undraw.co[UnDraw, window="_blank"]
+* https://unsplash.com/[unsplash, window="_blank"]
+* https://plantuml.com/class-diagram[plantUml]
+
+
+
+
+=== Verwendung von plantuml in Asciidoctor
+
+[plantuml,xxx,png]
+----
+@startuml
+class Person {
+  name: String
+  hobbies: List<Hobby>
+}
+
+class Hobby {
+  person: Person
+}
+Person <--- Hobby : übt aus >
+Person ---> Hobby
+@enduml
+----
+
+[source,java]
+----
+Hobby hobby = new Hobby();
+hobby.person = new Person();
+
+Person person = hobby.person;
+----
+
+
+[plantuml,jenkins,png]
+----
+@startuml
+rectangle gitrepo
+queue jenkins{
+    file java
+    storage compile
+    file class
+    storage package
+    file jar
+    storage test
+    storage deploy
+}
+gitrepo -> java
+java -> compile
+compile -> class
+class -> package
+package -> jar
+jar -> test
+test -> deploy
+@enduml
+----
