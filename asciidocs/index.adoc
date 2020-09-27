@@ -1,6 +1,6 @@
 = Lecture Notes 5BHIF NVS-Java 20/21
 Thomas Stütz
-1.0.0, yyyy-mm-dd: Some notes
+1.0.0, 2020-09-25: Notes for the Course: NVS4 - verteilte System
 ifndef::imagesdir[:imagesdir: images]
 //:toc-placement!:  // prevents the generation of the doc at this position, so it can be printed afterwards
 :sourcedir: ../src/main/java
@@ -20,27 +20,213 @@ endif::backend-html5[]
 // print the toc here (not at the default position)
 //toc::[]
 
+====
+* Testtermin: 26. November 2010
+* Prüfungstermin: 21. Jänner 2021
+====
+
 == 2020-09-24
 
 === Referate
 
-.Termin
+.ToDo
 |===
-|Wer |Was |Bis wann?
+|Wer |Was |Bis wann? |erledigt?
 
 |Stütz
 |Liste der Referatsthemen
 |1. Okt. 2020
+|icon:check[]
 
 |Stütz
 |Referatstermine festlegen
 |1. Okt. 2020
+|icon:uncheck[]
 
 |Stütz
 |RevealJs Repo zur Verfügung stellen
 |1. Okt. 2020
+|icon:uncheck[]
 
 |===
+
+.Referatstermine
+[%collapsible%open]
+====
+[cols="1,5,2,2"]
+|===
+|lfd.Nr. |Thema |Datum |Referent
+
+|{counter:usage}
+|Android Fragments, (Recycler-)View, Provider... -> erstellen und erläutern anhand von *Car Rental* oder eigenem Micro-Projekt
+|8.10.20
+|
+
+|{counter:usage}
+|Beispiel mit Room und CRUD Funktionalität ubd Recyclerview
+|
+|
+
+|{counter:usage}
+|Android Services
+|
+|
+
+|{counter:usage}
+|reaktives vs. imperatives Programmiermodell icon:exclamation[]icon:exclamation[]icon:exclamation[]icon:exclamation[]icon:exclamation[]icon:exclamation[]icon:exclamation[]icon:exclamation[]icon:exclamation[]icon:exclamation[]icon:exclamation[]icon:exclamation[]icon:exclamation[]icon:exclamation[]icon:exclamation[]icon:exclamation[]
+|
+|
+
+|{counter:usage}
+|Angular Client
+|
+|
+
+|{counter:usage}
+|CDI
+|
+|
+
+|{counter:usage}
+|Docker
+|
+|
+
+|{counter:usage}
+|Zugriff auf Datenbanken
+|
+|
+
+|{counter:usage}
+|Android Jetpack Compose
+|
+|
+
+|{counter:usage}
+|Java Webtechnologien
+|
+|
+
+|{counter:usage}
+|Datenformate
+|
+|
+
+|{counter:usage}
+|JavaFX
+|
+|
+
+|{counter:usage}
+|Kubernetes
+|
+|
+
+|{counter:usage}
+|SOAP, REST
+|
+|
+
+|{counter:usage}
+|WebSocket, SSE, gRPC, webhooks
+|
+|
+
+|{counter:usage}
+|Electron
+|
+|
+
+|{counter:usage}
+|Security - openID mit Keycloak
+|
+|
+
+|{counter:usage}
+|Security - Authentication methods / Problems
+|
+|
+
+|{counter:usage}
+|Messaging - MQTT, Kafka, JMS
+|
+|
+
+|{counter:usage}
+|openHAB on Raspberry Pi
+|
+|
+
+|{counter:usage}
+|IoT
+|
+|
+
+|{counter:usage}
+|Chatbots
+|
+|
+
+|{counter:usage}
+|
+|
+|
+
+|{counter:usage}
+|
+|
+|
+
+|{counter:usage}
+|
+|
+|
+
+|{counter:usage}
+|
+|
+|
+
+|{counter:usage}
+|
+|
+|
+
+|{counter:usage}
+|
+|
+|
+
+|{counter:usage}
+|
+|
+|
+
+|{counter:usage}
+|
+|
+|
+
+|===
+
+* Was ist in einem Referat enthalten?
+
+** Einfache Definition - Was tut der Standard / die Technologie?
+** Welches Problem wird gelöst?
+** Wie wurde dieses Problem bisher gelöst?
+** Was ist die Referenzimplementierung
+** Alternativen -> Marktanalyse
+** ev. ein lauffähiges Beispiel (nach Möglichkeit mit Quarkus)
+** auf welchem Prinzip baut diese Lösung auf? / wie funktioniert der Standard / die Technologie
+
+* Wie ist ein Referat zu erstellen*
+
+** vorzugsweise mit Asciidoctor und RevealJS als Foliensatz
+** ev. auch als Asciidoctor Dokument (ohne RevealJS)
+** Sämtliche Projekte sind in einem Github-Repo zu erstellen (-> *noch zu diskutieren*)
+
+
+====
 
 ==== Sources
 
