@@ -51,7 +51,8 @@ endif::backend-html5[]
 |===
 
 .Referatstermine
-[%collapsible%open]
+//[%collapsible%open]
+[%collapsible]
 ====
 [cols="1,5,2,2"]
 |===
