@@ -295,3 +295,14 @@ jar -> test
 test -> deploy
 @enduml
 ----
+
+=== 2020-09-24
+
+.Überblick
+* Technologien
+* Matura
+* Curriculum
+
+=== 2020-10-01
+
+Referate vergeben und Termine zuordnen
