@@ -41,7 +41,7 @@ endif::backend-html5[]
 |Stütz
 |Referatstermine festlegen
 |1. Okt. 2020
-|icon:uncheck[]
+|icon:check[]
 
 |Stütz
 |RevealJs Repo zur Verfügung stellen
@@ -59,88 +59,93 @@ endif::backend-html5[]
 
 |{counter:usage}
 |Android Fragments, (Recycler-)View, Provider... -> erstellen und erläutern anhand von *Car Rental* oder eigenem Micro-Projekt
-|8.10.20
-|
+|15.10.2020
+|17 Sandro T
 
 |{counter:usage}
-|Beispiel mit Room und CRUD Funktionalität ubd Recyclerview
-|
-|
+|Beispiel mit Room und CRUD Funktionalität ubd Recyclerview (mit Jetpack Compose)
+|19.11.2020
+|6 Florentin G
 
 |{counter:usage}
 |Android Services
-|
-|
+|5.11.2020
+|7 Johann H
+
+|{counter:usage}
+|Jakarta EE microprofile
+|5.11.2020
+|15 Georg S
 
 |{counter:usage}
 |reaktives vs. imperatives Programmiermodell icon:exclamation[]icon:exclamation[]icon:exclamation[]icon:exclamation[]icon:exclamation[]icon:exclamation[]icon:exclamation[]icon:exclamation[]icon:exclamation[]icon:exclamation[]icon:exclamation[]icon:exclamation[]icon:exclamation[]icon:exclamation[]icon:exclamation[]icon:exclamation[]
-|
-|
+|7.1.2021
+|19 Aleander W
 
 |{counter:usage}
 |Angular Client
-|
-|
+|22.10.2021
+|11 Alexander
 
 |{counter:usage}
-|CDI
-|
-|
+|CDI (Quarkus)
+|22.11.2020
+|14 Elias R
 
 |{counter:usage}
-|Docker
-|
-|
+|Docker, docker-compose, Swarm nur Theorie -> Orchestrierung
+|5.11.2020
+|5 Lukas G
 
 |{counter:usage}
 |Zugriff auf Datenbanken
-|
-|
+|12.11.2020
+|2 Nico A
 
 |{counter:usage}
 |Android Jetpack Compose
-|
-|
+|19.11.2020
+|16 Chiara S
 
 |{counter:usage}
 |Java Webtechnologien
-|
-|
+|5.11.2020
+|8 Armin H
 
 |{counter:usage}
 |Datenformate
-|
-|
+|12.11.2020
+|9 Elias J
 
 |{counter:usage}
-|JavaFX
-|
-|
+|JavaFX -> TornadoFX
+|12.11.2020
+|4 Simon B
 
 |{counter:usage}
 |Kubernetes
-|
-|
+|3.12.2020
+|3 Christian B
 
 |{counter:usage}
-|SOAP, REST
+|SOAP, REST, graphQL
 |
 |
 
 |{counter:usage}
 |WebSocket, SSE, gRPC, webhooks
-|
-|
+|3.12.2020
+|1 Gabriel A
 
 |{counter:usage}
 |Electron
-|
-|
+|11.12.2020
+|12 Christoph
 
 |{counter:usage}
 |Security - openID mit Keycloak
-|
-|
+|12.11.2020
+|10 Jusic H
 
 |{counter:usage}
 |Security - Authentication methods / Problems
@@ -149,8 +154,8 @@ endif::backend-html5[]
 
 |{counter:usage}
 |Messaging - MQTT, Kafka, JMS
-|
-|
+|10.12.2020
+|20 Jakob W
 
 |{counter:usage}
 |openHAB on Raspberry Pi
@@ -159,13 +164,13 @@ endif::backend-html5[]
 
 |{counter:usage}
 |IoT
-|
-|
+|17.12.2020
+|18 Clements W
 
 |{counter:usage}
 |Chatbots
-|
-|
+|7.1.2021
+|13 Florian P
 
 |{counter:usage}
 |
