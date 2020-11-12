@@ -296,13 +296,26 @@ test -> deploy
 @enduml
 ----
 
-=== 2020-09-24
+== 2020-09-24
 
 .Überblick
 * Technologien
 * Matura
 * Curriculum
 
-=== 2020-10-01
+== 2020-10-01
 
 Referate vergeben und Termine zuordnen
+
+
+== 2020-11-12
+
+* Referate:
+** Nachtrag 15GSeng -> Jaeger
+** 05LGais -> Docker -> wird nochmals gehalten
+** 04SBla -> TornadoFX
+
+
+=== Jib
+
+* noch nicht in Registry deployed
