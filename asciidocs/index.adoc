@@ -319,3 +319,8 @@ Referate vergeben und Termine zuordnen
 === Jib
 
 * noch nicht in Registry deployed
+
+== 2020-11-19
+
+* Jib fertig
+* https://htl-leonding-college.github.io/quarkus-lecture-notes/kubernetes-minikube.html[Deployment in Minikube, window="_blank"] -> Probleme
