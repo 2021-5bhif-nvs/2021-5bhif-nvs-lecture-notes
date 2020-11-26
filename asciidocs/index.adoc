@@ -324,3 +324,106 @@ Referate vergeben und Termine zuordnen
 
 * Jib fertig
 * https://htl-leonding-college.github.io/quarkus-lecture-notes/kubernetes-minikube.html[Deployment in Minikube, window="_blank"] -> Probleme
+
+=== 2020-11-26
+
+* Referate:
+** 11KUA -> Angular + Keycloak (Wiederholung)
+** 14RE -> CDI
+
+
+==== Übung
+
+* Erstellen Sie eine Quarkus Applikation zum Thema Ihres Microprojekts vom 4.Jg
+** Schreiben Sie dieses Backend in Kotlin (mit Maven als Build-Tool)
+** Erstellen Sie ca. 3 Use-Cases, die Sie implementieren
+** Dokumentieren Sie diese User-Stories in einem geeignetem Asciidoctor-Dokument
+*** Dieses Dokument soll sehr prägnant (kurz) sein
+*** ein UCD-Diagramm sowie eine textuelle Formulierung
+** Erstellen Sie BDD-orientierte Tests (Behaviour-Driven-Design)
+*** Verwenden Sie das Karate-Framework
+*** Schreiben Sie die Feature-Files in Gherkin
+*** Testen Sie verschiedene Szenarien jeweils zu Ihren User-Stories
+
+* Termin: 1. Dezember 2020
+* https://classroom.github.com/a/-gW8nePW[Classroom-Repo, window="_blank"]
+
+
+=== Behaviour Driven Design - BDD (Karate & Gherkin)
+
+* Konzept: BDD
+** aus der sicht des Kunden werden die Tests erstellt
+
+=== Karate
+
+image:karate-overview.png[]
+
+https://github.com/intuit/karate
+
+.Erstellen des Projekts
+----
+mvn io.quarkus:quarkus-maven-plugin:1.9.2.Final:create \
+    -DprojectGroupId=at.htl \
+    -DprojectArtifactId=quarkus-karate-demo \
+    -DclassName="at.htl.karate.boundary.GreetingResource" \
+    -Dpath="/hello"
+----
+
+.pom.xml
+[source,xml]
+----
+    <dependency>
+      <groupId>com.intuit.karate</groupId>
+      <artifactId>karate-apache</artifactId>
+      <version>0.9.6</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.intuit.karate</groupId>
+      <artifactId>karate-junit5</artifactId>
+      <version>0.9.6</version>
+      <scope>test</scope>
+    </dependency>
+    ...
+
+  <build>
+    <testResources>
+      <testResource>
+        <directory>src/test/java</directory>
+        <excludes>
+          <exclude>**/*.java</exclude>
+        </excludes>
+      </testResource>
+    </testResources>
+    <plugins>
+    ...
+    </plugins>
+  ...
+  </build>
+----
+
+.src/test/java/karate-config.js
+[source,javascript]
+----
+function fn() {
+    var env = karate.env; // get java system property 'karate.env'
+    karate.log('karate.env system property was:', env);
+    if (!env) {
+        env = 'dev'; // a custom 'intelligent' default
+    }
+    var config = { // base config JSON
+        baseUrl: 'http://localhost:8081'
+    };
+    // don't waste time waiting for a connection or if servers don't respond within 5 seconds
+    karate.configure('connectTimeout', 5000);
+    karate.configure('readTimeout', 5000);
+    return config;
+}
+----
+
+https://github.com/htl-leonding-college/quarkus-karate-testcontainers-demo
+
+
+
+
+
