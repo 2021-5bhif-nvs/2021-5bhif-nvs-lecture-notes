@@ -425,5 +425,23 @@ https://github.com/htl-leonding-college/quarkus-karate-testcontainers-demo
 
 
 
+== 2020-12-17
+
+=== Smallwind
+
+* JP-QL vs SQL
+* Cascading asscociations
+
+=== Teststoff
+
+* Quarkus
+
+
+=== Karate
+
+* BDD -> Behaviour Driven Development
+* verhaltensorientierte Entwicklung (besser: Anforderungsorientierte Entwicklung)
+* feature-Files sind in Gherkin geschrieben
+
 
 
