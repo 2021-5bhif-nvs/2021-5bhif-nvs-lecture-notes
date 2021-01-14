@@ -5,3 +5,4 @@ target/
 asciidocs/revealjs/
 revealjs.zip
 gh-pages
+.DS_Store

@@ -1,12 +1,5 @@
-= Lecture Notes 5BHIF NVS-Java 20/21
-Thomas Stütz
-1.0.0, 2020-09-25: Notes for the Course: NVS4 - verteilte System
-ifndef::imagesdir[:imagesdir: images]
-//:toc-placement!:  // prevents the generation of the doc at this position, so it can be printed afterwards
-:sourcedir: ../src/main/java
-:icons: font
-:sectnums:    // Nummerierung der Überschriften / section numbering
-:toc: left
+
+
 
 //Need this blank line after ifdef, don't know why...
 ifdef::backend-html5[]
@@ -445,3 +438,8 @@ https://github.com/htl-leonding-college/quarkus-karate-testcontainers-demo
 
 
 
+== 2021-01-14
+
+=== Häufige Fehler bei Projekten
+
+=== Bidirektionale Beziehungen
