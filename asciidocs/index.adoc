@@ -443,3 +443,160 @@ https://github.com/htl-leonding-college/quarkus-karate-testcontainers-demo
 === Häufige Fehler bei Projekten
 
 === Bidirektionale Beziehungen
+
+== 2021-02-04
+
+* Codelab: Use Kotlin Coroutines in your Android App
+* Es wird nächstes Mal fortgesetzt: https://developer.android.com/codelabs/kotlin-coroutines?hl=en&continue=https%3A%2F%2Fcodelabs.developers.google.com%2F#4
+
+== 2021-03-04
+
+
+* Testtermin:
+* Teststoff:
+
+
+* Lehrziele
+** Backend
+*** DB
+*** REST-Service
+
+** Frontend: mobile
+*** DB (Room)
+*** REST-Client (Retrofit)
+*** Jetpack-Compose
+
+////
+* https://developer.android.com/courses/kotlin-android-fundamentals/overview
+
+* Git classroom: https://classroom.github.com/a/YoZAl1T6
+
+|===
+|Name |Topic
+
+|Aigner, Gabriel
+|Column 2, row 1
+
+|Column 1, row 2
+|Column 2, row 2
+
+|Column 1, row 3
+|Column 2, row 3
+
+|Column 1, row 4
+|Column 2, row 4
+
+|Column 1, row 5
+|Column 2, row 5
+
+|Column 1, row 6
+|Column 2, row 6
+
+|Column 1, row 7
+|Column 2, row 7
+
+|Column 1, row 8
+|Column 2, row 8
+
+|Column 1, row 9
+|Column 2, row 9
+
+|Column 1, row 10
+|Column 2, row 10
+|===
+
+
+Lesson 1: Build your first app
+
+    1.0 Install Android Studio
+    1.1 Get started
+    1.2 Basic app anatomy
+    1.3 Image resources and compatibility
+    1.4 Learn to help yourself
+
+Lesson 2: Layouts
+
+    2.1 Linear layout using the Layout Editor
+    2.2 Add user interactivity
+    2.3 Constraint layout using the Layout Editor
+    2.4 Data-binding basics
+
+Lesson 3: Navigation
+
+    3.1 Create a fragment
+    3.2 Define navigation paths
+    3.3 Start an external activity
+
+Lesson 4: Activity and fragment lifecycles
+
+    4.1 Lifecycles and logging
+    4.2 Complex lifecycle situations
+
+Lesson 5: Architecture components
+
+    5.1 ViewModel and ViewModelProvider
+    5.2 LiveData and LiveData observers
+    5.3 DataBinding with ViewModel and LiveData
+    5.4 LiveData transformations
+
+Lesson 6: Room database and coroutines
+
+    6.1 Create a Room database
+    6.2 Coroutines and Room
+    6.3 Record quality and button states
+
+Lesson 7: RecyclerView
+
+    7.1 RecyclerView fundamentals
+    7.2 DiffUtil and data binding with RecyclerView
+    7.3 GridLayout with RecyclerView
+    7.4 Interacting with RecyclerView items
+    7.5 Headers in RecyclerView
+
+Lesson 8: Connecting to the internet
+
+    8.1 Getting data from the internet
+    8.2 Loading and displaying images from the internet
+    8.3 Filtering and detail views with internet data
+
+Lesson 9: Repository
+
+    9.1 Repository
+    9.2 WorkManager
+
+Lesson 10: Designing for everyone
+
+    10.1 Styles and themes
+    10.2 Material Design, dimens, and colors
+    10.3 Design for everyone
+
+////
+
+== 2021-03-18
+
+* https://developer.android.com/teach#for-instructors-teaching-a-course
+** Classroom: https://classroom.github.com/a/dCKQxucp
+** alle Commit-Mesages beinhalten den Nachnamen
+** die jeweilige Unit/... ist in den Commit Messages enthalten
+
+
+* Mikroprojekt
+** Classroom: https://classroom.github.com/a/-beRQZMm
+** alle Commit-Mesages beinhalten den Nachnamen
+** im REDAME.md muss ganz kurz das Projekt und die Implementierung beschrieben werden
+
+
+** Termin 2021-03-25
+*** App mit RecyclerView (inkl. Bilder)
+*** Es wird Gespräche über die Ausarbeitung geben (LZK)
+*** begleitend die Codelabs des Kurses
+
+** Termin 2021-04-08
+*** App mit Room Database
+*** Es wird Gespräche über die Ausarbeitung geben (LZK)
+
+** Termin 2021-04-15
+*** App mit Access to RESTApi mit Quarkus-Backend (deployed in oravm)
+*** Es wird Gespräche über die Ausarbeitung geben (LZK)
+
+
